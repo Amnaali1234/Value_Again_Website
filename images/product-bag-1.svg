@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="640" height="480" viewBox="0 0 640 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bagBg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7F5FA"/>
+      <stop offset="1" stop-color="#E6D4FF"/>
+    </linearGradient>
+    <linearGradient id="bagBody1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F5E1D3"/>
+      <stop offset="1" stop-color="#E0BFA5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="480" rx="32" fill="url(#bagBg1)"/>
+
+  <!-- Bag body -->
+  <rect x="190" y="180" width="260" height="190" rx="32" fill="url(#bagBody1)"/>
+
+  <!-- Flap -->
+  <path d="M190 210C190 193 203 180 220 180H420C437 180 450 193 450 210V228H190V210Z" fill="#F2D6C4"/>
+
+  <!-- Hanger-like handle -->
+  <path d="M230 200C232 172 252 150 280 150H360C388 150 408 172 410 200" stroke="#B388FF" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Buckle -->
+  <rect x="300" y="228" width="40" height="26" rx="10" fill="#FFFFFF" fill-opacity="0.9"/>
+  <rect x="307" y="233" width="26" height="16" rx="6" stroke="#C79FB5" stroke-width="2" fill="none"/>
+
+  <!-- Subtle bottom shadow -->
+  <ellipse cx="320" cy="390" rx="140" ry="20" fill="#B89FCA" fill-opacity="0.25"/>
+</svg>
+

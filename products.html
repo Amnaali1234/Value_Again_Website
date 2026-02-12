@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products | Value Again</title>
+    <meta name="description" content="Browse pre-loved dresses, bags, shoes, jewelry and more on Value Again. Quality fashion for girls and women at accessible prices." />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="nav-logo">
+                    <span class="logo-mark" aria-hidden="true">
+                        <span class="logo-circle"></span>
+                        <span class="logo-hanger"></span>
+                    </span>
+                    <span class="logo-text">Value Again</span>
+                </a>
+
+                <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+                <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu">
+                    <span></span>
+                </label>
+
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="products.html" class="nav-link active">Products</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="login.html" class="nav-link nav-link--ghost">Login</a></li>
+                    <li><a href="signup.html" class="btn btn--small">Sign up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section section--soft products-page">
+            <div class="container">
+                <div class="section-header section-header--row products-page-header">
+                    <div>
+                        <p class="eyebrow">Browse pre-loved fashion</p>
+                        <h1>Find pieces that fit your style and your budget</h1>
+                        <p class="products-sustainability-msg">Every purchase helps reduce waste and gives quality items a second life.</p>
+                    </div>
+                </div>
+
+                <div class="products-toolbar">
+                    <div class="products-toolbar__row">
+                        <form class="search-bar" action="#" method="get">
+                            <label class="sr-only" for="search">Search products</label>
+                            <input type="search" id="search" name="search" placeholder="Search dresses, bags, shoes..." />
+                        </form>
+                        <a href="signup.html" class="btn products-sell-cta">Sell Your Item</a>
+                    </div>
+                    <div class="filter-buttons" aria-label="Category filters">
+                        <button type="button" class="chip chip--filled">All</button>
+                        <button type="button" class="chip">Dresses</button>
+                        <button type="button" class="chip">Ethnic wear</button>
+                        <button type="button" class="chip">Bags</button>
+                        <button type="button" class="chip">Shoes</button>
+                        <button type="button" class="chip">Jewelry</button>
+                        <button type="button" class="chip">Wedding items</button>
+                        <button type="button" class="chip">Event decor</button>
+                        <button type="button" class="chip">Baby products</button>
+                        <button type="button" class="chip">Gadgets</button>
+                    </div>
+                </div>
+
+                <div class="product-grid product-grid--large">
+                    <!-- 9 product cards -->
+                    <article class="product-card">
+                        <div class="product-card__image">
+                            <img src="images/product-dress-1.jpg" alt="Blush satin wrap dress" />
+                        </div>
+                        <div class="product-card__body">
+                            <h2 class="product-card__title">
+                                <a href="product-dress-1-details.html">Blush Satin Wrap Dress</a>
+                            </h2>
+                            <p class="product-card__meta">Condition: Excellent • Worn once</p>
+                            <p class="product-card__seller">Seller: Ayesha</p>
+                            <p class="product-card__rating">⭐ 4.8</p>
+                            <p class="product-card__location">Karachi</p>
+                            <p class="product-card__price">Rs. 1,499</p>
+                            <a href="product-dress-1-details.html" class="btn btn--ghost btn--full">View details</a>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-card__image">
+                            <img src="images/product-bag-1.jpg" alt="Structured nude handbag" />
+                        </div>
+                        <div class="product-card__body">
+                            <h2 class="product-card__title">
+                                <a href="product-bag-1-details.html">Structured Nude Handbag</a>
+                            </h2>
+                            <p class="product-card__meta">Condition: Very good • Minor wear</p>
+                            <p class="product-card__seller">Seller: Fatima</p>
+                            <p class="product-card__rating">⭐ 4.9</p>
+                            <p class="product-card__location">Lahore</p>
+                            <p class="product-card__price">Rs. 999</p>
+                            <a href="product-bag-1-details.html" class="btn btn--ghost btn--full">View details</a>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-card__image">
+                            <img src="images/product-heels.jpg" alt="Nude block-heel sandals" />
+                        </div>
+                        <div class="product-card__body">
+                            <h2 class="product-card__title">
+                                <a href="product-heel-1-details.html">Nude Block-Heel Sandals</a>
+                            </h2>
+                            <p class="product-card__meta">Condition: Like new</p>
+                            <p class="product-card__seller">Seller: Zainab</p>
+                            <p class="product-card__rating">⭐ 4.7</p>
+                            <p class="product-card__location">Islamabad</p>
+                            <p class="product-card__price">Rs. 1,199</p>
+                            <a href="product-heel-1-details.html" class="btn btn--ghost btn--full">View details</a>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-card__image">
+                            <img src="images/product-kurta-1.jpg" alt="Embroidered pastel kurta set" />
+                        </div>
+                        <div class="product-card__body">
+                            <h2 class="product-card__title">
+                                <a href="product-kurta-1-details.html">Embroidered Pastel Kurta Set</a>
+                            </h2>
+                            <p class="product-card__meta">Condition: Excellent</p>
+                            <p class="product-card__seller">Seller: Sana</p>
+                            <p class="product-card__rating">⭐ 4.9</p>
+                            <p class="product-card__location">Karachi</p>
+                            <p class="product-card__price">Rs. 1,799</p>
+                            <a href="product-kurta-1-details.html" class="btn btn--ghost btn--full">View details</a>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-card__image">
+                            <img src="images/product-saree-1.jpg" alt="Lilac organza saree" />
+                        </div>
+                        <div class="product-card__body">
+                            <h2 class="product-card__title">
+                                <a href="product-saree-1-details.html">Lilac Organza Saree</a>
+                            </h2>
+                            <p class="product-card__meta">Condition: Excellent</p>
+                            <p class="product-card__seller">Seller: Mariam</p>
+                            <p class="product-card__rating">⭐ 4.8</p>
+                            <p class="product-card__location">Lahore</p>
+                            <p class="product-card__price">Rs. 2,199</p>
+                            <a href="product-saree-1-details.html" class="btn btn--ghost btn--full">View details</a>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-card__image">
+                            <img src="images/product-jewelry-1.jpg" alt="Layered necklace set" />
+                        </div>
+                        <div class="product-card__body">
+                            <h2 class="product-card__title">
+                                <a href="product-jewelry-1-details.html">Delicate Layered Necklace</a>
+                            </h2>
+                            <p class="product-card__meta">Condition: Like new</p>
+                            <p class="product-card__seller">Seller: Hira</p>
+                            <p class="product-card__rating">⭐ 4.6</p>
+                            <p class="product-card__location">Rawalpindi</p>
+                            <p class="product-card__price">Rs. 499</p>
+                            <a href="product-jewelry-1-details.html" class="btn btn--ghost btn--full">View details</a>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-card__image">
+                            <img src="images/product-dress-2.jpg" alt="Floral midi dress" />
+                        </div>
+                        <div class="product-card__body">
+                            <h2 class="product-card__title">
+                                <a href="product-dress-2-details.html">Floral Midi Dress</a>
+                            </h2>
+                            <p class="product-card__meta">Condition: Very good</p>
+                            <p class="product-card__seller">Seller: Ayesha</p>
+                            <p class="product-card__rating">⭐ 4.7</p>
+                            <p class="product-card__location">Faisalabad</p>
+                            <p class="product-card__price">Rs. 1,299</p>
+                            <a href="product-dress-2-details.html" class="btn btn--ghost btn--full">View details</a>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-card__image">
+                            <img src="images/product-bag-2.jpg" alt="Mini crossbody bag" />
+                        </div>
+                        <div class="product-card__body">
+                            <h2 class="product-card__title">
+                                <a href="product-bag-2-details.html">Mini Crossbody Bag</a>
+                            </h2>
+                            <p class="product-card__meta">Condition: Good</p>
+                            <p class="product-card__seller">Seller: Aliya</p>
+                            <p class="product-card__rating">⭐ 4.5</p>
+                            <p class="product-card__location">Karachi</p>
+                            <p class="product-card__price">Rs. 699</p>
+                            <a href="product-bag-2-details.html" class="btn btn--ghost btn--full">View details</a>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-card__image">
+                            <img src="./images/product-heel-2.jpg" alt="Black pointed heels" />
+                        </div>
+                        <div class="product-card__body">
+                            <h2 class="product-card__title">
+                                <a href="product-heel-2-details.html">Black Pointed Heels</a>
+                            </h2>
+                            <p class="product-card__meta">Condition: Excellent</p>
+                            <p class="product-card__seller">Seller: Sadia</p>
+                            <p class="product-card__rating">⭐ 4.9</p>
+                            <p class="product-card__location">Lahore</p>
+                            <p class="product-card__price">Rs. 1,399</p>
+                            <a href="product-heel-2-details.html" class="btn btn--ghost btn--full">View details</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer__grid">
+            <div class="footer__brand">
+                <a href="index.html" class="footer-logo">
+                    <span class="logo-mark" aria-hidden="true">
+                        <span class="logo-circle"></span>
+                        <span class="logo-hanger"></span>
+                    </span>
+                    <span class="logo-text">Value Again</span>
+                </a>
+                <p class="footer__tagline">Smart spending. Less waste. More value.</p>
+                <p>
+                    A resale marketplace designed to make quality fashion accessible, sustainable, and empowering for
+                    girls and women everywhere.
+                </p>
+            </div>
+
+            <div class="footer__links">
+                <h3>Quick links</h3>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Browse products</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="signup.html">Create an account</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__contact">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Email: support@valueagain.com</li>
+                    <li>Phone: +91-98765-00000</li>
+                    <li>Mon–Sat, 10:00–18:00 IST</li>
+                </ul>
+                <div class="footer__social">
+                    <a href="#" aria-label="Facebook" class="social-icon">F</a>
+                    <a href="#" aria-label="Instagram" class="social-icon">I</a>
+                    <a href="#" aria-label="Twitter" class="social-icon">T</a>
+                    <a href="#" aria-label="YouTube" class="social-icon">Y</a>
+                    <a href="#" aria-label="LinkedIn" class="social-icon">L</a>
+                </div>
+            </div>
+
+            <div class="footer__newsletter">
+                <h3>Stay in the loop</h3>
+                <p>Be the first to know when new collections and seller stories go live.</p>
+                <form class="newsletter-form" action="#" method="post">
+                    <label class="sr-only" for="newsletter-email">Email address</label>
+                    <div class="newsletter-form__row">
+                        <input
+                            type="email"
+                            id="newsletter-email"
+                            name="newsletter-email"
+                            placeholder="Enter your email"
+                            required
+                        />
+                        <button type="submit" class="btn btn--small">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container footer__bottom-inner">
+                <p>© <span id="year">2026</span> Value Again. All rights reserved.</p>
+                <p class="footer__bottom-links">
+                    <a href="#">Privacy</a>
+                    <span>•</span>
+                    <a href="#">Terms</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

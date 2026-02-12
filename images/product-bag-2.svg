@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="640" height="480" viewBox="0 0 640 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bag2Bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7F5FA"/>
+      <stop offset="1" stop-color="#E0F7FA"/>
+    </linearGradient>
+    <linearGradient id="bag2Body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#80CBC4"/>
+      <stop offset="1" stop-color="#4DB6AC"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="480" rx="32" fill="url(#bag2Bg)"/>
+
+  <!-- Crossbody bag -->
+  <rect x="210" y="210" width="220" height="130" rx="40" fill="url(#bag2Body)"/>
+
+  <!-- Flap -->
+  <path d="M210 230C210 210 226 196 248 196H392C414 196 430 210 430 230V238H210V230Z" fill="#A5D6D9"/>
+
+  <!-- Strap -->
+  <path d="M220 200C248 170 280 150 320 144C360 138 392 144 420 158" stroke="#4DB6AC" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Button -->
+  <circle cx="320" cy="244" r="8" fill="#FFFFFF" fill-opacity="0.9"/>
+</svg>
+

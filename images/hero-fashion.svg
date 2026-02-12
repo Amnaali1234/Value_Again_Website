@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FDE5EF"/>
+      <stop offset="1" stop-color="#E6D4FF"/>
+    </linearGradient>
+    <linearGradient id="dressGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6C1D5"/>
+      <stop offset="1" stop-color="#F48FB1"/>
+    </linearGradient>
+    <linearGradient id="dressGrad2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B388FF"/>
+      <stop offset="1" stop-color="#7B2CBF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="620" rx="40" fill="url(#bgGrad)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="120" cy="120" r="40" fill="white" fill-opacity="0.45"/>
+  <circle cx="770" cy="140" r="26" fill="white" fill-opacity="0.35"/>
+  <circle cx="820" cy="480" r="54" fill="#F6C1D5" fill-opacity="0.35"/>
+
+  <!-- Floor -->
+  <rect x="80" y="430" width="740" height="120" rx="28" fill="white" fill-opacity="0.9"/>
+
+  <!-- First stylized figure (left) -->
+  <!-- Head -->
+  <circle cx="310" cy="200" r="34" fill="#FFECE0"/>
+
+  <!-- Hair -->
+  <path d="M278 205C278 176 294 157 310 157C326 157 342 176 342 205C330 218 320 224 310 224C300 224 290 218 278 205Z" fill="#4F2C4F"/>
+
+  <!-- Dress -->
+  <path d="M250 420L288 240H332L370 420C348 442 324 454 310 454C296 454 272 442 250 420Z" fill="url(#dressGrad)"/>
+  <path d="M288 240L298 270C305 290 315 300 325 300C335 300 345 290 352 270L362 240H288Z" fill="#F8D4E3"/>
+
+  <!-- Second stylized figure (right) -->
+  <!-- Head -->
+  <circle cx="540" cy="200" r="34" fill="#FFE6F0"/>
+
+  <!-- Hair (bun) -->
+  <circle cx="540" cy="177" r="20" fill="#3A204A"/>
+  <path d="M512 210C515 186 525 173 540 173C555 173 565 186 568 210C556 223 548 229 540 229C532 229 524 223 512 210Z" fill="#3A204A"/>
+
+  <!-- Jumpsuit / dress -->
+  <path d="M480 420L505 245H575L600 420C580 445 558 458 540 458C522 458 500 445 480 420Z" fill="url(#dressGrad2)"/>
+  <path d="M505 245L514 270C521 290 530 300 540 300C550 300 559 290 566 270L575 245H505Z" fill="#EDE7FF"/>
+
+  <!-- Shopping bag between them -->
+  <rect x="405" y="320" width="70" height="80" rx="10" fill="white" stroke="#D1B7EA" stroke-width="3"/>
+  <path d="M415 326C418 312 426 304 440 304C454 304 462 312 465 326" stroke="#D1B7EA" stroke-width="3" fill="none"/>
+
+  <!-- Hanger icon on bag -->
+  <path d="M437 350C437 346 440 343 444 343C448 343 451 346 451 350C451 352 450 353 448 355L456 359C458 360 459 362 459 364C459 366 457 368 455 368H433C431 368 429 366 429 364C429 362 430 360 432 359L440 355C438 353 437 352 437 350Z" fill="#C39AD9"/>
+
+  <!-- Text blocks -->
+  <rect x="120" y="460" width="220" height="60" rx="16" fill="#FFFFFF" fill-opacity="0.9"/>
+  <rect x="360" y="460" width="190" height="60" rx="16" fill="#FFFFFF" fill-opacity="0.9"/>
+  <rect x="570" y="460" width="210" height="60" rx="16" fill="#FFFFFF" fill-opacity="0.9"/>
+
+  <text x="135" y="485" fill="#7B2CBF" font-size="14" font-family="Montserrat, system-ui" font-weight="600">
+    Pre-loved outfits
+  </text>
+  <text x="135" y="505" fill="#6F6279" font-size="12" font-family="Montserrat, system-ui">
+    Shared between real women
+  </text>
+
+  <text x="375" y="485" fill="#7B2CBF" font-size="14" font-family="Montserrat, system-ui" font-weight="600">
+    Budget-friendly looks
+  </text>
+  <text x="375" y="505" fill="#6F6279" font-size="12" font-family="Montserrat, system-ui">
+    For college, work &amp; events
+  </text>
+
+  <text x="585" y="485" fill="#7B2CBF" font-size="14" font-family="Montserrat, system-ui" font-weight="600">
+    Less waste, more value
+  </text>
+  <text x="585" y="505" fill="#6F6279" font-size="12" font-family="Montserrat, system-ui">
+    Fashion that lives again
+  </text>
+</svg>
+

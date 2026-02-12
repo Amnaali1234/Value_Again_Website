@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Value Again</title>
+    <meta name="description" content="Login to your Value Again account to manage listings, browse pre-loved fashion, and connect with other women in the community." />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="nav-logo">
+                    <span class="logo-mark" aria-hidden="true">
+                        <span class="logo-circle"></span>
+                        <span class="logo-hanger"></span>
+                    </span>
+                    <span class="logo-text">Value Again</span>
+                </a>
+
+                <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+                <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu">
+                    <span></span>
+                </label>
+
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="products.html" class="nav-link">Products</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="login.html" class="nav-link nav-link--ghost active">Login</a></li>
+                    <li><a href="signup.html" class="btn btn--small">Sign up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section section--full-height section--soft auth-section">
+            <div class="container auth-grid">
+                <div class="auth-copy">
+                    <p class="eyebrow">Welcome back</p>
+                    <h1>Log in to continue your Value Again journey</h1>
+                    <p>
+                        Access your saved items, manage listings, and stay connected with a community that believes in
+                        affordable, sustainable style.
+                    </p>
+                </div>
+
+                <div class="auth-card">
+                    <form class="form" action="#" method="post">
+                        <div class="form-group">
+                            <label for="login-email">Email</label>
+                            <input type="email" id="login-email" name="email" autocomplete="email" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="login-password">Password</label>
+                            <input type="password" id="login-password" name="password" autocomplete="current-password" required />
+                        </div>
+
+                        <div class="form-row form-row--between">
+                            <label class="checkbox">
+                                <input type="checkbox" name="remember" />
+                                <span>Remember me</span>
+                            </label>
+                            <a href="#" class="form-link">Forgot password?</a>
+                        </div>
+
+                        <button type="submit" class="btn btn--full">Log in</button>
+
+                        <div class="form-divider">
+                            <span>or continue with</span>
+                        </div>
+
+                        <div class="social-login">
+                            <button type="button" class="btn btn--outline btn--full">Continue with Google</button>
+                            <button type="button" class="btn btn--outline btn--full">Continue with Facebook</button>
+                        </div>
+
+                        <p class="form-footer-text">
+                            New to Value Again?
+                            <a href="signup.html" class="form-link">Create an account</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer__grid">
+            <div class="footer__brand">
+                <a href="index.html" class="footer-logo">
+                    <span class="logo-mark" aria-hidden="true">
+                        <span class="logo-circle"></span>
+                        <span class="logo-hanger"></span>
+                    </span>
+                    <span class="logo-text">Value Again</span>
+                </a>
+                <p>
+                    A resale marketplace designed to make quality fashion accessible, sustainable, and empowering for
+                    girls and women everywhere.
+                </p>
+            </div>
+
+            <div class="footer__links">
+                <h3>Quick links</h3>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Browse products</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="signup.html">Create an account</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__contact">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Email: support@valueagain.com</li>
+                    <li>Phone: +91-98765-00000</li>
+                    <li>Mon–Sat, 10:00–18:00 IST</li>
+                </ul>
+                <div class="footer__social">
+                    <a href="#" aria-label="Facebook" class="social-icon">F</a>
+                    <a href="#" aria-label="Instagram" class="social-icon">I</a>
+                    <a href="#" aria-label="Twitter" class="social-icon">T</a>
+                    <a href="#" aria-label="YouTube" class="social-icon">Y</a>
+                    <a href="#" aria-label="LinkedIn" class="social-icon">L</a>
+                </div>
+            </div>
+
+            <div class="footer__newsletter">
+                <h3>Stay in the loop</h3>
+                <p>Be the first to know when new collections and seller stories go live.</p>
+                <form class="newsletter-form" action="#" method="post">
+                    <label class="sr-only" for="newsletter-email">Email address</label>
+                    <div class="newsletter-form__row">
+                        <input
+                            type="email"
+                            id="newsletter-email"
+                            name="newsletter-email"
+                            placeholder="Enter your email"
+                            required
+                        />
+                        <button type="submit" class="btn btn--small">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container footer__bottom-inner">
+                <p>© <span id="year">2026</span> Value Again. All rights reserved.</p>
+                <p class="footer__bottom-links">
+                    <a href="#">Privacy</a>
+                    <span>•</span>
+                    <a href="#">Terms</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

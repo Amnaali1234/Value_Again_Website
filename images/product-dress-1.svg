@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="640" height="480" viewBox="0 0 640 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dressBg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FDE5EF"/>
+      <stop offset="1" stop-color="#F6C1D5"/>
+    </linearGradient>
+    <linearGradient id="dressBody1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F48FB1"/>
+      <stop offset="1" stop-color="#EC407A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="480" rx="32" fill="url(#dressBg1)"/>
+
+  <!-- Hanger -->
+  <path d="M314 120C314 110 322 102 332 102C342 102 350 110 350 120C350 126 347 130 342 135L356 143C360 145 362 148 362 152C362 156 359 160 354 160H310C305 160 302 156 302 152C302 148 304 145 308 143L322 135C317 130 314 126 314 120Z" fill="#7B2CBF" fill-opacity="0.8"/>
+
+  <!-- Dress top -->
+  <path d="M276 160L300 190H364L388 160C380 148 372 142 362 140L350 160H314L302 140C292 142 284 148 276 160Z" fill="#FCE4EC"/>
+
+  <!-- Dress body -->
+  <path d="M240 370L276 190H388L424 370C395 402 365 418 332 418C299 418 269 402 240 370Z" fill="url(#dressBody1)"/>
+
+  <!-- Highlights -->
+  <path d="M292 198C276 244 270 290 268 324C266 352 270 372 274 382" stroke="#FCE4EC" stroke-width="3" stroke-linecap="round"/>
+  <path d="M372 198C388 244 394 290 396 324C398 352 394 372 390 382" stroke="#FCE4EC" stroke-width="3" stroke-linecap="round"/>
+</svg>
+
