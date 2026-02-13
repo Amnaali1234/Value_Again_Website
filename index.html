@@ -343,6 +343,40 @@
             </div>
         </section>
     </main>
+    
+      <!-- AI Assistant Section -->
+<section class="section ai-section" id="ai-assistant">
+    <div class="container ai-container">
+        <div class="ai-content">
+            <p class="eyebrow">Smart Support</p>
+            <h2>Your Personal Value Again AI Assistant</h2>
+            <p class="ai-subtitle">
+                Need help choosing the right outfit? Want to price your item correctly?
+                Our AI assistant is here to guide buyers and sellers instantly.
+            </p>
+            <button class="btn" onclick="toggleChat()">Chat with AI</button>
+        </div>
+
+        <!-- Chat Box -->
+        <div class="ai-chat-box" id="aiChatBox">
+            <div class="ai-chat-header">
+                <span>Value Again AI</span>
+                <button class="ai-close-btn" onclick="toggleChat()">✕</button>
+            </div>
+
+            <div class="ai-chat-messages" id="chatMessages">
+                <div class="ai-message bot">
+                    Hi 👋 I’m your Value Again assistant. How can I help you today?
+                </div>
+            </div>
+
+            <div class="ai-chat-input">
+                <input type="text" id="userInput" placeholder="Type your question..." />
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- Footer -->
     <footer class="site-footer">
